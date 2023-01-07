@@ -55,12 +55,6 @@ main {
   display: flex;
   gap: 90px;
 }
-.about-img {
-  width: 50%;
-}
-.about-img img {
-  width: 100%;
-}
 
 .about-info {
   width: 50%;
@@ -140,14 +134,15 @@ ul li {
 }
 
 .mindset-section {
-  padding: 100px 0;
-  background-image: url("../images/watch.png");
-  background-repeat: no-repeat;
-
+  padding: 59px 0;
   border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
 }
 .mindset-info {
-  padding-left: 64px;
+  padding-left: 65px;
 }
 
 .mindset-title {
@@ -156,4 +151,16 @@ ul li {
   line-height: 48px;
   color: #ffffff;
   margin-bottom: 24px;
+}
+.mindset-btn {
+  color: #f15b22;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
