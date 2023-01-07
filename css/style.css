@@ -55,11 +55,14 @@
 
 header {
   background-image: url("../images/banner/banner1.png");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
+/* Navigation Section Styles */
 
 nav {
   display: flex;
@@ -75,7 +78,7 @@ nav {
 
 .nav-links {
   display: flex;
-align-items: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -92,9 +95,11 @@ align-items: center;
   color: #f15b22;
 }
 
+/* Banner Section Styles */
+
 .banner-info {
   text-align: right;
-  padding: 400px 230px 360px 845px;
+  padding: 200px 350px;
 }
 .banner-title {
   font-weight: 700;
