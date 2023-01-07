@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common CSS Styles */
+
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+header {
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-info {
+  text-align: right;
+  padding: 400px 230px 360px 845px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  padding: 100px 0;
+  display: flex;
+  gap: 90px;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+
+.about-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✔";
+  color: #16d887;
+  margin-right: 10px;
+}
+ul li {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.my-plan {
+  padding: 100px 0;
+  text-align: center;
+}
+.my-plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.my-plan-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.my-plan-card img {
+  margin-bottom: 25px;
+}
+
+.my-plan-card-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.my-plan-card-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+  margin-bottom: 16px;
+}
+
+.mindset-section {
+  padding: 100px 0;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+
+  border-radius: 8px;
+}
+.mindset-info {
+  padding-left: 64px;
+}
+
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
