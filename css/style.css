@@ -154,7 +154,7 @@ ul li {
 }
 .mindset-btn {
   color: #f15b22;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   border: 0;
   padding: 18px 35px;
@@ -163,4 +163,71 @@ ul li {
   background: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+footer {
+  background: #151414;
+}
+.footer-section {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info {
+  padding: ;
+  color: #ffffff;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 24px;
+  margin: 24px 0;
+  flex-direction: column;
+}
+
+.footer-form-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 29px;
+}
+
+.footer-form input {
+  width: 100%;
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  background: #151414;
+}
+
+.footer-form input::placeholder {
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
